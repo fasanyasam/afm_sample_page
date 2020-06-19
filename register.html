@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>AFM WECA | REGISTRATION </title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <!-- <link rel="stylesheet" href="css/mdb.min.css"> -->
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-light bg-primary">
+        
+    <a class="navbar-brand text-white" href="index.html" id="logo"> <img> APOSTOLIC FAITH WECA </a>
+    <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto ">
+        <li class="nav-item active">
+          <a class="nav-link " href="#"> Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="#"> Our Mission </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link text-white" href="#">
+            Worship
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="#">Sunday School </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="register.html"> Events Registration </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="#"> Gallery </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Resources </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-primary" href="#">History in Africa </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-primary" href="#"> Collected Gospel Songs </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item text-primary" href="#"> Sunday School Books </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="#"> Contact Us </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white " href="registered-members.html"> Admin </a>
+        </li>
+      </ul>
+      </div>
+    
+  </nav>
+   <main>
+   <br>
+        <form > 
+          <div class="form">
+            <h2 class="text-white text-center  "> Registration Form </h2>
+            <div class="form-group">
+              <label id="name" for="name"> Fullname <span>(Surname first) </span></label><br> 
+              <input type="text" name="name" id="name" class="long-input" placeholder="Fullname" required />
+            </div>
+            <div class="form-group">
+              <label id="address" for="name"> Residential Address </label><br>
+              <input type="text" name="name" id="address" class="long-input" placeholder="Address" required />
+            </div>
+            
+            <div class="form-group">
+              <!-- Age, Gender, Phone Number Label  -->
+              <label id="age-label" for="age"> Age </label>
+              <label id="gender-label" for="gender"> Gender </label>
+              <label id="phone-number-label" for="phone-number"> Phone Number </label>
+              
+              <!-- Age Input  -->
+              <input type="number" name="age" id="age" class="short-input" placeholder="Age" required />
+              
+              <!-- Gender Input  -->
+              <select type="select" name="gender" id="gender" class="short-input" placeholder="Gender" required />
+              <option value="select" > Select  </option>
+                <option value="male" > Male </option>
+                <option value="female" > Female </option>
+              </select>
+              
+              <!-- Phone number Input  -->
+              <input type="number" name="phone-number" id="phone-number" class="short-input" placeholder="+234 xxx xxx xxxx" required />
+  
+            </div>
+            <div class="form-group">
+              
+                <label id="membership" for="membership"> Are you a member? </label>
+                <label id="member" for="membership"> Member </label>
+                <input id="membership" type="radio" name="membership" class="radio" >
+                <label id="non-member" for="membership"> Non-Member </label>
+                <input id="membership" type="radio" name="membership" class="radio" >
+            </div>
+                
+                <!-- Email and Relationship Label -->
+                  <label id="email-label"for="email"> Email Address </label> 
+                  <label id="status-label" for="status"> Relationship Status </label><br> 
+                  <!-- Email Input  -->
+                  <input id="email" type="email" class="short-input" placeholder="example@email.com">
+               <!-- Relationship Selection  -->
+                <select id="status" type="select" name="select" class="short-input" >
+                <option value="select"> Select status</option>
+                <option value="single"> Single </option>
+                <option value="Engaged"> Engaged </option>
+                <option value="married"> Married </option>
+                <option value="widowed"> Widowed </option>
+              </select>
+
+            </div>
+
+            <div class="form-row">
+              
+            </div>
+
+             
+              <!-- Nationality and Region Label   -->
+              <label id="country-label"> Nationality </label>
+              <label id="region-label"> Region </label> 
+              <label id="state-label"> State </label><br>
+              
+              <!-- Country Selection  -->
+              <select id="country" type="select" class="short-input"> 
+                <option value="select"> </option>
+                <option value="Nigerian"> Nigerian </option>
+                <option value="Others"> Others  </option>
+              </select>
+              
+              <!-- Region Selection -->
+              <select id="region" type="select" class="short-input"> 
+                <option value="select"> </option>
+                <option value="Lagos"> Lagos</option>
+                <option value="Delta"> Delta </option>
+              </select>
+
+              <!-- StateSelection  -->
+              <select id="state" type="select" class="short-input"> 
+                <option value="select"> </option>
+                <option value="Lagos"> Lagos</option>
+                <option value="Delta"> Delta </option>
+              </select>
+              <br>
+
+                <!-- Branch and Event Label -->
+              <label id="branch-label"> Branch </label>
+              <label id="status-label" for="status"> Event </label> <br>
+
+              <!-- Branch Selection -->
+              <select id="branch" type="select" class="short-input"> 
+                <option value="select"> </option>
+                <option value="Akowonjo"> Lagos</option>
+                <option value="Idimu"> Delta </option>
+              </select>
+              
+              <!-- Event Selection -->
+            <select id="status" type="select" name="select" class="short-input" >
+              <option value="select"> Select Event</option>
+              <option value="single"> Campmeeting  </option>
+              <option value="Engaged"> IYC </option>
+            </select>
+            <div class="form-group">
+
+            <label id="lodge" for="lodge"> Do you have a lodging area? </label>
+            <label id="yes" for="lodge" name="lodge"> Yes </label>
+            <input id="lodge" type="radio" name="lodge" class="radio" >
+            <label id="no" for="lodge" name="lodge"> No </label>
+            <input id="lodge" type="radio" name="lodge" class="radio" >
+            <br>
+            <label id="accomodation" for="accomodation"> Do you need accomodation? </label>
+            <label id="yes" for="accomodation" name="accomodation"> Yes </label>
+            <input id="yes" type="radio" name="accomodation" class="radio" >
+            <label id="no" for="accomodation" name="accomodation"> No </label>
+            <input id="no" type="radio" name="accomodation" class="radio" >
+
+            <br>
+            <button type="button" > Submit </button>
+          </div>
+        </form>
+        
+         
+
+      
+
+
+
+
+      <footer class="bg-primary text-white text-center "> &copy 2020. Apostolic Faith, West & Central Africa - All rights reserved </footer>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
