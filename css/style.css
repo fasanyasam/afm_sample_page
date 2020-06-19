@@ -1,0 +1,122 @@
+/* Home page style */
+main{
+    background-image: url("../img/bgd.jpg");
+    background-attachment: fixed;
+}
+#logo img{
+    background-image: url(../img/afm_logo.png);
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 100px;
+}
+
+
+.navbar-brand{
+    font-size: 36px;
+    font-family:fantasy;
+}
+@media screen and (max-width:600px){
+    #logo img{
+        background-image: url(../img/afm_logo.png);
+        background-repeat: no-repeat;
+        height: 15px;
+        width: 30px;
+    }
+    .navbar-brand{
+        font-size: 16px;
+        font-family:fantasy;
+    }
+
+    button{
+        height:10px;
+        width: 30px;
+    }
+    a{
+        font-size: 12px;
+    }
+    footer {
+        font-size: 12px;
+    }
+    p, label, input{
+        font-size: 12px;
+    }
+    h3, h2{
+        font-size: 16px;
+    }
+}
+footer{
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    padding-top: 16px;
+}
+
+
+/* registration page style  */
+body{
+    height: 100%;
+    width: 100%;
+}
+
+form{
+    height: 90%;
+    width: 60%;
+    background-color: rgb(2, 113, 240);
+    margin: auto;
+    padding: 50px;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+}
+
+.short-input {
+    height: 40px;
+    width: 23%;
+    margin: 10px;
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.897);
+}
+#age-label, #gender-label, #phone-number-label, #country-label, #region-label, #email-label, #status-label, #branch-label, #event-label{
+    height: 20px;
+    width: 23%;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+.long-input{
+    height: 40px;
+    width: 80%;
+    margin: 10px;
+    border: solid 2px white;
+    background-color: rgba(255, 255, 255, 0.897);
+    border-radius: 5px;
+}
+label {
+    margin: 10px;
+    padding: 4px;
+}
+form button{
+    margin: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: rgb(2, 113, 240);
+    border: solid 2px white;
+    color: white;
+    font-weight: bold;
+}
+
+form button:hover {
+    margin: auto;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: white;
+    border: solid 2px white;
+    color: rgb(2, 113, 240);
+    transition: ease-in .3s;
+    font-weight: bold;
+}
+
+
+
